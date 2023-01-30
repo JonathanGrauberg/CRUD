@@ -2,7 +2,7 @@
 include('conexion.php');
 $con=conectar();
 
-$id=$_GET['id'];
+$id=$_POST['id'];
 $codigo=$_POST['codigo'];
 $descripcion=$_POST['descripcion'];
 $precio=$_POST['precio'];
